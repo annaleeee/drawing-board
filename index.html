@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="color-options">
+        <input type="color" id="color">
+        <div class="color-option" style="background-color: #f5cd79;" data-color="#f5cd79"></div>
+        <div class="color-option" style="background-color: #f3a683;" data-color="#f3a683"></div>
+        <div class="color-option" style="background-color: #f19066;" data-color="#f19066"></div>
+        <div class="color-option" style="background-color: #f8a5c2;" data-color="#f8a5c2"></div>
+        <div class="color-option" style="background-color: #e66767;" data-color="#e66767"></div>
+        <div class="color-option" style="background-color: #cf6a87;" data-color="#cf6a87"></div>
+        <div class="color-option" style="background-color: #778beb;" data-color="#778beb"></div>
+        <div class="color-option" style="background-color: #786fa6;" data-color="#786fa6"></div>
+        <div class="color-option" style="background-color: #574b90;" data-color="#574b90"></div>
+        <div class="color-option" style="background-color: #303952;" data-color="#303952"></div>
+        <!-- data- : 데이터 속성 (data attribute) -->
+    </div>
+    <canvas></canvas>
+    <div class="btns">
+        <input type="range" id="line-width" min="1" max="10" value="5" step=".5">
+        <button id="mode_btn">Fill</button>
+        <button id="destroy_btn">Destroy</button>
+        <button id="eraser_btn">Erase</button>
+        <label for="file"> <!--for = id / 텍스트 클릭하면, input 실행-->
+            Add Image
+            <input type="file" id="file" accept="image/*"> <!--이미지 파일만 허용-->
+        </label>
+        <input type="text" id="text" placeholder="텍스트를 입력하세요">
+        <button id="save_btn">Save Image</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
