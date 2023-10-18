@@ -1,7 +1,7 @@
 ## Drawing-Board
 by.노마드 코더 Meme Maker 
 
-[ data- (데이터 속성) 활용 ]
+#### [ data- (데이터 속성) 활용 ]
 
 - color-option에 data-color에서 사용
   * event.target의 dataset에 접근하여 color 값을 가져오는 작업
