@@ -11,7 +11,9 @@ by.노마드 코더 Meme Maker
 
 - 사용 이유 ?
    * 화면에 보이지 않게 추가 정보를 담아둘 수 있음 => 코드가 훨씬 간결해짐 (가독성 ↑)
-  
+     
+<br>
 
-
+#### [Preview]
+<img src="./preview.png" width="90%">
 
